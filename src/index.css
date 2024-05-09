@@ -1,0 +1,27 @@
+@import "keep-react/css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.one{
+  color: #499dff;
+}
+.slick-slide > div {
+    margin: 0px 15px;
+  }
+  @media (min-width: 320px) and (max-width: 575.98px){
+    .slick-slide > div {
+      margin: 0px 2px;
+    }
+  }
+.rc-slider-track {
+  background-color: #28b0a6;
+}
+
+.rc-slider-handle {
+  border: 2px solid #28b0a6;
+}
+
+.rc-slider-handle:hover {
+  border-color: #28b0a6 !important;
+}
